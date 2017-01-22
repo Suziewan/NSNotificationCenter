@@ -10,6 +10,10 @@
 
 @interface FirstViewController : UIViewController
 
+@property (nonatomic, strong) NSString *observedProperty;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 
 @end
 
